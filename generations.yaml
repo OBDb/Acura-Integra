@@ -1,0 +1,20 @@
+generations:
+  - name: "First Generation"
+    start_year: 1986
+    end_year: 1989
+    description: "The original Acura Integra helped launch the Acura brand in North America. Available in both 3-door and 5-door hatchback body styles, it featured a 1.6L DOHC engine with 113 HP. Known for its sporty handling, practical design, and reliability, it set the foundation for the Integra's reputation."
+
+  - name: "Second Generation"
+    start_year: 1990
+    end_year: 1993
+    description: "The second generation brought more refined styling and improved performance. Engine options included a 1.8L DOHC four-cylinder with up to 140 HP in the GS-R trim, which featured VTEC technology. This generation maintained the sporty character while improving comfort and features."
+
+  - name: "Third Generation"
+    start_year: 1994
+    end_year: 2001
+    description: "The third generation Integra is often considered the most iconic, particularly the Type R variant. The standard models featured a 1.8L engine producing 142 HP, while the GS-R offered 170 HP. The limited-production Type R delivered 195 HP and featured extensive weight reduction and chassis reinforcement, making it a highly sought-after collector car."
+
+  - name: "Fourth Generation (Rebirth)"
+    start_year: 2023
+    end_year: null
+    description: "After a two-decade hiatus, the Integra nameplate returned as a premium sport compact replacing the ILX in Acura's lineup. Based on the Honda Civic platform, it features a turbocharged 1.5L engine producing 200 HP and is available with a 6-speed manual transmission. The modern Integra combines sporty handling with upscale features and practicality in a five-door liftback design."
