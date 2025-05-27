@@ -1,0 +1,5 @@
+command_id: DB33.0149
+test_cases:
+- response: 18DAF11003414945
+  expected_values:
+    APP_D: 27.05882
