@@ -4,5 +4,5 @@ test_cases:
     SHRTFT1: -5.46875
   response: 18DAF11003410679
 - expected_values:
-    SHRTFT1: 8.59375
-  response: 18DAF1100341068B
+    SHRTFT1: 13.28125
+  response: 18DAF11003410691
