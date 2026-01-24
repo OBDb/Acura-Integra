@@ -15,9 +15,14 @@ generations:
   - name: "Third Generation"
     start_year: 1994
     end_year: 2001
-    description: "The third generation Integra is often considered the most iconic, particularly the Type R variant. The standard models featured a 1.8L engine producing 142 HP, while the GS-R offered 170 HP. The limited-production Type R delivered 195 HP and featured extensive weight reduction and chassis reinforcement, making it a highly sought-after collector car."
+    description: "The third generation Integra is often considered the most iconic, particularly the Type R variant. The standard models featured a 1.8L engine producing 142 HP, while the GS-R offered 170 HP. The limited-production Type R delivered 195 HP and featured extensive weight reduction and chassis reinforcement, making it a highly sought-after collector car. The generation received facelifts in late 1994 (with new headlights) and 1998 (with updated bumpers)."
 
-  - name: "Fourth Generation (Rebirth)"
+  - name: "Fourth Generation (RSX Era)"
+    start_year: 2002
+    end_year: 2006
+    description: "The fourth-generation Integra was sold as the Acura RSX in North America from 2002-2006. It featured a new K-series 2.0L engine producing 160-200 HP depending on the model (RSX vs RSX Type-S). Only available as a 3-door liftback coupe, this generation marked a shift toward more powerful, turbocharged performance. Production ended in August 2006."
+
+  - name: "Fifth Generation (Rebirth)"
     start_year: 2023
     end_year: null
-    description: "After a two-decade hiatus, the Integra nameplate returned as a premium sport compact replacing the ILX in Acura's lineup. Based on the Honda Civic platform, it features a turbocharged 1.5L engine producing 200 HP and is available with a 6-speed manual transmission. The modern Integra combines sporty handling with upscale features and practicality in a five-door liftback design."
+    description: "After a 16-year hiatus, the Integra nameplate returned as a premium sport compact replacing the ILX in Acura's lineup in June 2022 for the 2023 model year. Based on the Honda Civic (eleventh generation) platform, it features a turbocharged 1.5L engine producing 200 HP and is available with a 6-speed manual transmission. The modern Integra combines sporty handling with upscale features and practicality in a five-door liftback design."
