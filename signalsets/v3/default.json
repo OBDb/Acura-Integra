@@ -60,11 +60,11 @@
     {"id": "INTEGRA_TT_RR", "path": "Tires", "fmt": {"bix": 208, "len": 8,  "max": 127,   "min": -128, "sign": true,                 "unit": "celsius"    }, "name": "Rear right tire temperature",  "suggestedMetric": "rearRightTireTemperature"},
     {"id": "INTEGRA_TT_RL", "path": "Tires", "fmt": {"bix": 216, "len": 8,  "max": 127,   "min": -128, "sign": true,                 "unit": "celsius"    }, "name": "Rear left tire temperature",   "suggestedMetric": "rearLeftTireTemperature"}
   ]},
-{ "hdr": "DA28", "rax": "28", "cmd": {"22": "4004"}, "freq": 0.25, "dbgfilter": { "to": 2024, "from": 2026 },
+{ "hdr": "DA28", "rax": "28", "cmd": {"22": "4004"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "INTEGRA_BRK_SW", "path": "Electrical", "fmt": {"bix": 127, "len": 1, "max": 1, "unit": "offon" }, "name": "Brake switch"}
   ]},
-{ "hdr": "DA28", "rax": "28", "cmd": {"22": "4005"}, "freq": 0.25, "dbgfilter": { "to": 2024, "from": 2026 },
+{ "hdr": "DA28", "rax": "28", "cmd": {"22": "4005"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "INTEGRA_BRK_P", "path": "Electrical", "fmt": {"bix": 56, "len": 16, "max": 120, "add": -25, "unit": "bars" }, "name": "Brake pressure"}
   ]},
@@ -75,7 +75,7 @@
     {"id": "INTEGRA_MSTR_CYL_STK", "path": "Electrical", "fmt": {"bix": 232, "len": 16, "max": 3276.7, "min": -3276.8, "div": 10,  "sign": true, "unit": "millimeters" }, "name": "Master cylinder stroke"},
     {"id": "INTEGRA_SLV_CYL_STK",  "path": "Electrical", "fmt": {"bix": 248, "len": 16, "max": 6553.5,                 "div": 10,                "unit": "millimeters" }, "name": "Slave cylinder stroke"}
   ]},
-{ "hdr": "DA60", "rax": "60", "cmd": {"22": "7022"}, "freq": 30, "dbgfilter": { "to": 2024, "from": 2026 },
+{ "hdr": "DA60", "rax": "60", "cmd": {"22": "7022"}, "freq": 30, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "INTEGRA_ODO_V3", "path": "Trips", "fmt": {"bix": 48, "len": 24, "max": 200000, "unit": "miles" }, "name": "Odometer, variation 3"}
   ]},
