@@ -7,11 +7,23 @@ test_cases:
     18DAF11E0441422F0A
     18DAF1100441422F7B
 - expected_values:
-    VPWR: 12.205
+    VPWR: 12.15
   response: |-
-    18DAF1EF0441423034
-    18DAF110044142302A
-    18DAF11E0441422FAD
+    18DAF1EF0441422FF3
+    18DAF1100441422FF8
+    18DAF11E0441422F76
+- expected_values:
+    VPWR: 12.192
+  response: |-
+    18DAF1EF0441423022
+    18DAF1100441423043
+    18DAF11E0441422FA0
+- expected_values:
+    VPWR: 12.287
+  response: |-
+    18DAF1EF0441423068
+    18DAF1100441423075
+    18DAF11E0441422FFF
 - expected_values:
     VPWR: 12.43
   response: |-
@@ -36,12 +48,6 @@ test_cases:
     18DAF1EF0441423804
     18DAF11E044142377D
     18DAF1100441423831
-- expected_values:
-    VPWR: 14.335
-  response: |-
-    18DAF1EF0441423865
-    18DAF1100441423897
-    18DAF11E04414237FF
 - expected_values:
     VPWR: 14.612
   response: |-
