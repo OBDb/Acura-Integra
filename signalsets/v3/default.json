@@ -51,19 +51,19 @@
     {"id": "INTEGRA_EOT_VAR_3", "path": "Engine", "fmt": {"bix": 88,  "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Engine oil temperature, variant 3"},
     {"id": "INTEGRA_EOT_VAR_4", "path": "Engine", "fmt": {"bix": 112, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Engine oil temperature, variant 4"}
   ]},
-{ "hdr": "DA1E", "rax": "1E", "cmd": {"22": "2300"}, "freq": 60, "dbgfilter": { "to": 2025, "from": 2027 },
+{ "hdr": "DA1E", "rax": "1E", "cmd": {"22": "2300"}, "freq": 60, "dbgfilter": { "to": 2022, "years": [2024, 2025], "from": 2027 },
   "signals": [
     {"id": "INTEGRA_RAW_1E_2300", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 1E 22 2300", "description": "Captured to learn this reply's layout. Its listed contents: Distinction code of transmission.(CVT)."}
   ]},
-{ "hdr": "DA1E", "rax": "1E", "cmd": {"22": "2301"}, "freq": 30, "dbgfilter": { "to": 2025, "from": 2027 },
+{ "hdr": "DA1E", "rax": "1E", "cmd": {"22": "2301"}, "freq": 30, "dbgfilter": { "to": 2022, "years": [2024, 2025], "from": 2027 },
   "signals": [
     {"id": "INTEGRA_RAW_1E_2301", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 1E 22 2301", "description": "Captured to learn this reply's layout. Its listed contents: APP Sensor A (V); APP Sensor B (V); APP Sensor (%); Output Shaft(Driven Pulley) Speed rpm; Input Shaft(Drive Pulley) Speed rpm; Electric Oil Pump(rpm); Electric Oil Pump Target Speed(rpm); Engine Speed; Atmospheric Pressure; BARO SENSOR (V); Manifold Absolute Pressure; MAP Sensor (V); Relative TP Sensor; Intake Air Temperature; IAT Sensor (V); CVTF Temperature; CVTF Temp Sensor (V); ...."}
   ]},
-{ "hdr": "DA1E", "rax": "1E", "cmd": {"22": "2320"}, "freq": 30, "dbgfilter": { "to": 2025, "from": 2027 },
+{ "hdr": "DA1E", "rax": "1E", "cmd": {"22": "2320"}, "freq": 30, "dbgfilter": { "to": 2022, "years": [2024, 2025], "from": 2027 },
   "signals": [
     {"id": "INTEGRA_RAW_1E_2320", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 1E 22 2320", "description": "Captured to learn this reply's layout. Its listed contents: Accumulator Solenoid; Pressure Control Sol Actual; Driven Pulley Sol Actual; Drive Pulley Sol Actual; LCC Linear Sol Actual; Start Clutch Control Sol Actual; Pressure Control Sol Command; Driven Pulley Sol Command; Drive Pulley Sol Command; LCC Linear Sol Command; Start Clutch Control Sol Command; Inhibitor Sol; Shift Sol A; Shift Sol B; Shift Sol O/P; Shift Lock Sol."}
   ]},
-{ "hdr": "DA1E", "rax": "1E", "cmd": {"22": "2321"}, "freq": 30, "dbgfilter": { "to": 2025, "from": 2027 },
+{ "hdr": "DA1E", "rax": "1E", "cmd": {"22": "2321"}, "freq": 30, "dbgfilter": { "to": 2022, "years": [2024, 2025], "from": 2027 },
   "signals": [
     {"id": "INTEGRA_RAW_1E_2321", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 1E 22 2321", "description": "Captured to learn this reply's layout. Its listed contents: Shift position indicator all segment; D Indicator; L Indicator; N Indicator; P Indicator; R Indicator; S Indicator; A/T D Switch; Forward Switch; A/T L Switch; A/T N Switch; A/T P Switch; A/T R Switch; Reverse Switch(ATPRVS); A/T S Switch; Brake Switch; ECON Mode Indicator; ECON Mode Switch; LED A; LED B; LED C; Manual Mode Indicator; Park Pin Switch; Downshift Switch; Downshift Switch (ST); ...."}
   ]},
@@ -86,7 +86,7 @@
   "signals": [
     {"id": "INTEGRA_BRK_P", "path": "Electrical", "fmt": {"bix": 56, "len": 16, "max": 120, "add": -25, "unit": "bars" }, "name": "Brake pressure"}
   ]},
-{ "hdr": "DA28", "rax": "28", "cmd": {"22": "4006"}, "freq": 60, "dbgfilter": { "to": 2025, "from": 2027 },
+{ "hdr": "DA28", "rax": "28", "cmd": {"22": "4006"}, "freq": 60, "dbgfilter": { "to": 2022, "years": [2024, 2025], "from": 2027 },
   "signals": [
     {"id": "INTEGRA_RAW_28_4006", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 28 22 4006", "description": "Captured to learn this reply's layout. Its listed contents: Diagnostic support/status block (unconfirmed)."}
   ]},
