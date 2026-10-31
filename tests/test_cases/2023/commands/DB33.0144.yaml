@@ -1,8 +1,8 @@
 command_id: DB33.0144
 test_cases:
 - expected_values:
-    EQ_RAT: 0.79556
-  response: 18DAF11004414465D5
+    EQ_RAT: 0.79544
+  response: 18DAF11004414465D1
 - expected_values:
     EQ_RAT: 0.79684
   response: 18DAF11004414465FF
